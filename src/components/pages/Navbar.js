@@ -8,6 +8,7 @@ function Navbar() {
    const [click, setClick] = useState(false);
 
    const [button, setButton] = useState(true);
+   console.log(button);
 
    const handleClick = () => setClick(!click);
    //    const closeMenu = () => setClick(!false);
@@ -30,6 +31,7 @@ function Navbar() {
                   <img
                      src={require("../../assets/images/Prime puma.png")}
                      className="logo"
+                     alt="logo"
                   />
                </Link>
                <div className="menu-icon" onClick={handleClick}>
