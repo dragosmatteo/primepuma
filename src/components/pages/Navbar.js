@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -13,7 +13,7 @@ function Navbar() {
    //    const closeMenu = () => setClick(!false);
 
    const showButton = () => {
-      if (window.innerWidth <= 1042) {
+      if (window.innerWidth <= 1024) {
          setButton(false);
       } else {
          setButton(true);
