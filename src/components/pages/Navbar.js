@@ -27,7 +27,10 @@ function Navbar() {
          <div className="navbar">
             <div className="navbar-container container">
                <Link to="/" className="navbar-logo">
-                  PRIME PUMA
+                  <img
+                     src={require("../../assets/images/Prime puma.png")}
+                     className="logo"
+                  />
                </Link>
                <div className="menu-icon" onClick={handleClick}>
                   {click ? <FaTimes /> : <FaBars />}
