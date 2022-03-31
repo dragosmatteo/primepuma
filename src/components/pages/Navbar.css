@@ -36,8 +36,8 @@
 
 .nav-menu {
    display: grid;
-   grid-template-columns: repeat(4, auto);
-   grid-gap: 10px;
+   grid-template-columns: repeat(5, auto);
+   /* grid-gap: 5px; */
    list-style: none;
    text-align: center;
    width: 60vw;
@@ -58,10 +58,10 @@
    height: 100%;
 }
 
-.nav-links:hover {
+/* .nav-links:hover {
    border-bottom: 4px solid #fff;
-   transition: all 0.2s ease-out;
-}
+   transition: all 0.2s ease-out; */
+/* } */
 
 .fa-bars {
    color: #fff;
@@ -73,6 +73,17 @@
 
 .menu-icon {
    display: none;
+}
+
+.buy {
+   border: none;
+   cursor: pointer;
+   padding: 10px 20px;
+   clip-path: polygon(5% 15%, 94% 18%, 100% 85%, 0 83%);
+   background-color: #fff;
+   color: #1e90ff;
+   font-size: 1.25rem;
+   font-weight: 700;
 }
 
 @media screen and (max-width: 960px) {

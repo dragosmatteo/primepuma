@@ -13,7 +13,7 @@ function Navbar() {
    //    const closeMenu = () => setClick(!false);
 
    const showButton = () => {
-      if (window.innerWidth <= 960) {
+      if (window.innerWidth <= 1042) {
          setButton(false);
       } else {
          setButton(true);
@@ -59,7 +59,13 @@ function Navbar() {
                      </Link>
                   </li>
 
-                  <li className="nav-btn">
+                  <li className="nav-item">
+                     <Link to="/buynow" className="nav-links">
+                        <button className="buy">BUY NOW</button>
+                     </Link>
+                  </li>
+
+                  {/* <li className="nav-btn">
                      {button ? (
                         <Link to="/buynow" className="btn-link">
                            <Button buttonStyle="btn--outline">BUY NOW</Button>
@@ -74,7 +80,7 @@ function Navbar() {
                            </Button>
                         </Link>
                      )}
-                  </li>
+                  </li> */}
                </ul>
             </div>
          </div>
