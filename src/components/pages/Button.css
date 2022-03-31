@@ -1,0 +1,53 @@
+:root {
+    --primary : #fff
+    --secondary: #1E90FF
+    --btn: #BCDEFF;
+    --gradient: linear-gradient(90deg, #1E90FF 2.65%, #104FAC 98.8%);
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: var(--secondary);
+    /* clip-path: polygon(12% 31%, 94% 30%, 89% 55%, 11% 55%); */
+}
+
+.btn--outline {
+    padding: 15px 30px;
+    color: var(--secondary);
+    background-color: var(--primary);
+    clip-path: polygon(5% 15%, 94% 18%, 100% 85%, 0 83%);
+    transition: 0.3s ease all;
+}
+
+.btn--grad {
+    background-color: var(--btn);
+    color: linear-gradient(90deg, #1E90FF 2.65%, #104FAC 98.8%);
+    /* clip-path: polygon(12% 31%, 89% 30%, 89% 55%, 2% 55%); */
+    padding: 8px 20px;
+}
+
+.btn-medium {
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+.btn-large { 
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn-mobile {
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 14px 20px;
+}
