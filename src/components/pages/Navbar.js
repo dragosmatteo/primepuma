@@ -32,7 +32,15 @@ function Navbar() {
                <div className="menu-icon" onClick={handleClick}>
                   {click ? <FaTimes /> : <FaBars />}
                </div>
+
+               {/* !LIST! */}
                <ul className={click ? "nav-menu active" : "nav-menu"}>
+                  <li className="nav-item">
+                     <Link to="/story" className="nav-links">
+                        STORY
+                     </Link>
+                  </li>
+
                   <li className="nav-item">
                      <Link to="/roadmap" className="nav-links">
                         ROADMAP
