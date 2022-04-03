@@ -1,0 +1,19 @@
+{
+    "sections": [
+        {
+            "name": "story"
+        },
+        {
+            "name": "roadmap"
+        },
+        {
+            "name": "calculator"
+        },
+        {
+            "name": "social"
+        },
+        {
+            "name": "buy now"
+        }
+    ]
+}
