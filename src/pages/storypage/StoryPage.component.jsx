@@ -1,13 +1,9 @@
 import React from "react";
 import './StoryPage.styles.scss';
 
-// COMPONENTS
-import Header from "../../components/Header/Header.component";
-
 const StoryPage = () => {
     return (
-        <div className="storypage">
-            <Header />
+        <div className="story__page">
             <h1>Story Page</h1>
         </div>
     )

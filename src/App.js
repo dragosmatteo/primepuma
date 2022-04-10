@@ -1,5 +1,15 @@
+import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// FILES
 import "./App.css";
+import data from "./assets/data.json";
+
+// CONTEXTS
+import MenuContext from "./components/Context/MenuContext.component";
+
+// COMPONENTS
+import Header from "./components/Header/Header.component";
 
 // PAGES
 import HomePage from "./pages/homepage/HomePage.component";
@@ -10,9 +20,14 @@ import StoryPage from "./pages/storypage/StoryPage.component";
 import BuyPage from "./pages/buypage/BuyPage.component";
 
 function App() {
+
+   const [currentPage, setCurrentPage] = useState(0);
+   console.log(data)
+
    return (
       <Router>
          <div className="App">
+            <Header />
             <Routes>
                <Route exact path="/" element={<HomePage />} />
                <Route path="/home" element={<HomePage />} />

@@ -1,0 +1,57 @@
+{
+    "sections": [
+        {
+            "name": "home",
+            "text": [
+                {
+                    "name": "heading",
+                    "textContent": [
+                        {
+                            "text": "Welcome"
+                        },
+                        {
+                            "text": "to"
+                        },
+                        {
+                            "text": "Prime"
+                        },
+                        {
+                            "text": "Puma"
+                        }
+                    ],
+                    "imageContent": [
+                        {
+                            "imageSrc": "./home-pumas/top-puma.png"
+                        },
+                        {
+                            "imageSrc": "./home-pumas/center-puma.png"
+                        },
+                        {
+                            "imageSrc": "./home-pumas/bottom-puma.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "story",
+            "text": ""
+        },
+        {
+            "name": "roadmap",
+            "text": ""
+        },
+        {
+            "name": "calculator",
+            "text": ""
+        },
+        {
+            "name": "social",
+            "text": ""
+        },
+        {
+            "name": "buy now",
+            "text": ""
+        }
+    ]
+}
