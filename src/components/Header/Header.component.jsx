@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './Header.styles.scss';
 import data from "./header-assets/sections.json";
 
-import { library } from "@fortawesome/fontawesome-svg-core";
+// import { library } from "@fortawesome/fontawesome-svg-core";
 
 const Header = () => {
     return (
@@ -28,7 +28,7 @@ const Header = () => {
 
                 </nav>
 
-                {window.screen.width > 768 ? null : <FontAwesomeIcon icon={["fa-solid", "fa-bars"]} />}
+                {/* {window.screen.width > 768 ? null : <FontAwesomeIcon icon={["fa-solid", "fa-bars"]} />} */}
             </div>
         </header>
     )
